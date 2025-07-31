@@ -8,11 +8,11 @@ Studenterna lär sig hur man styr utseendet på en webbsida med CSS. Vi fokusera
 ---
 
 ## Denna vecka ska de studerande lära sig **kunskaper i/om**:
-1. Grundläggande förståelse för CSS och dess syntax.
+2. Grundläggande förståelse för CSS och dess syntax.
 
 ## Denna vecka ska de studerande lära sig **färdigheter i (att)**:
-1. Använda grundläggande CSS för att stilisera och anpassa utseendet på webbsidor.  
-2. Debugga och testa enkel CSS.
+7. Använda grundläggande CSS för att stilisera och anpassa utseendet på webbsidor.  
+11.. Debugga och testa enkel CSS.
 
 ---
 
