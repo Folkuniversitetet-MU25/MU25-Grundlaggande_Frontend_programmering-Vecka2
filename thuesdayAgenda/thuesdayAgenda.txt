@@ -366,8 +366,6 @@ figcaption { font-size: 0.9rem; color: #555; }
   padding: 8px 12px;
 }
 
-
-
 🗣️ Talarmanus:
 "Nu ser vi hur sidan förändras när vi lägger till CSS. Body får bakgrundsfärg, h1 får annan textfärg, p får större fontstorlek, och klassen .highlight kan användas för att markera delar av texten."
 

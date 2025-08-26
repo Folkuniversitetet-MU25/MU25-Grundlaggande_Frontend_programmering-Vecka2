@@ -3,29 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mandus Blogg hemsida</title>
+    <title>Mandus Blogg hemsida - css intro</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <!-- TODO skapa navigering -->
     <header>
-      <h1>Mandus Blogg</h1>
+      <h1 id="main-title">Mandus Blogg</h1>
+
       <nav>
         <a href="#">Hem</a>
         <a href="./about.html">Om mig</a>
-        <!-- TODO href till rätt html fil  -->
         <a href="#">Alla andra bloginlägg som inte visas på start/hemsidan</a>
       </nav>
     </header>
-    <!-- TODO ett bloginlägg -->
+
     <main>
       <article>
         <h2>Första inlägget</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vel
-          velit maxime alias dolore illo eveniet, hic optio odio culpa autem.
-          Ipsa quidem beatae corrupti quam tenetur quia repellat ex?
+          <span class="highlight"> 11111111111111velit</span> maxime alias
+          dolore illo eveniet, hic optio odio culpa autem. Ipsa quidem beatae
+          corrupti quam tenetur quia repellat ex?
         </p>
-        <!-- TODO lägga in en bild i det bloggnlägget -->
         <figure>
           <img
             src="./images/57651eff-c32c-4755-9647-6d5b9a93f949.png"
@@ -39,12 +39,41 @@
       </article>
     </main>
 
-    <!-- TODO skapa en del av sida (på vänster eller höger kanten av sidan för reklam) -->
+    <h3>En punktlista</h3>
+    <ul>
+      <li>Rubriker</li>
+      <li>Brödtext</li>
+      <li>Länkar</li>
+    </ul>
+
+    <h3>Grupp selektor</h3>
+    <p class="note">Den här paragrafen har<code>.note</code> klassen note</p>
+
     <aside>
-      <h3>Sido Reklam</h3>
+      <h4>Sido Reklam</h4>
+      <p>Här är lite text om reklam</p>
+      <ul>
+        <li><a href="#">Ny reklam</a></li>
+        <li><a href="#">Reklam företaget</a></li>
+      </ul>
     </aside>
 
-    <!-- TODO footer -->
+    <!-- Block vs Inline demo -->
+    <section>
+      <h3>Block vs Inline</h3>
+      <div class="box">
+        Jag är ett block-element (div) – bryter rad och tar hela bredden.
+      </div>
+      <div class="box">Ännu ett block.</div>
+      <p>
+        Här är inline-element:
+        <span class="chip">chip 1</span>
+        <span class="chip">chip 2</span>
+        <a class="chip" href="#">chip-länk</a>
+        – de ligger kvar på samma rad (tills de tar slut).
+      </p>
+    </section>
+
     <footer>
       <p>2025 Mandus Blog hemsida</p>
       <p>Email: mandus83838383838.gmail.com</p>
@@ -52,7 +81,6 @@
       <nav>
         <a href="#">Hem</a>
         <a href="./about.html">Om mig</a>
-        <!-- TODO href till rätt html fil  -->
         <a href="#">Alla andra bloginlägg som inte visas på start/hemsidan</a>
       </nav>
     </footer>
