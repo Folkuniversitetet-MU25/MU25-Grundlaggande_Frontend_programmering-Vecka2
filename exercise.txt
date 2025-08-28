@@ -1,19 +1,34 @@
-Självständiga övningar:
+Självständiga övningar – Fredag v.2
 
-Bygg vidare på produktpresentationssidan:
+Övning 1: Bygg ett trafikljus  
+- Använd `div`-element för tre lampor  
+- Färga dem med `background-color` (röd, gul, grön)  
+- Gör dem runda med `border-radius: 50%` (Valfritt att göra dem runda eller 4 kantiga)  
+- Ge dem border
+- Använd `margin` och `padding` för avstånd  
+- Använd `height` och `width` för storlek
 
-Använd minst 3 olika färger
+Se bild från PP
 
-Använd minst 1 klass och 1 ID
+--------------------------------------------------
+Övning 2: Bygg om trafikljuset till mer avancerat  
 
-Ändra fontstorlek på rubrik och brödtext
+Se bild från PP
 
-Testa att använda en relativ enhet (%, rem, em, vh eller vw)
+--------------------------------------------------
+Övning 3: Klona en valfri hemsida  
+- Välj en enkel webbsida (t.ex. Wikipedia-artikel, nyhetssida)  
+- Återskapa layouten med HTML och CSS  
 
-Extra: Testa en grupp-selektor, t.ex.:
+--------------------------------------------------
+Övning 4: Försök klona vykorts-bilden från PP  
+- Återskapa kortet med HTML & CSS  
+- Använd `border-radius` för rundade hörn  
+- Lägg till text och bild så likt som möjligt  
 
-h1, h2, p {
-  font-family: Arial;
-}
-
-Använd en grupp-selektor för att sätta samma font-family på rubriker och text.
+--------------------------------------------------
+Övning 5: Bygg en sida med 3 produktkort  
+- Varje kort ska ha unik styling (färg, typsnitt, border-radius)  
+- Använd margin och padding för spacing  
+- Skapa variation på knappar (runda, fyrkantiga, färgade)  
+Extra: Lägg till en hover-effekt på korten (t.ex. `box-shadow` eller färgändring)

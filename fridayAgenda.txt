@@ -1,0 +1,142 @@
+🧭 Workshop – 🚀 CSS Boxmodellen, Färg & Text  
+⏰ Tid: ca 3h  
+📚 Kurs: Grundläggande Frontend-programmering  
+📅 Vecka 2 – Fredag 29 aug  
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+🎯 Lektionsmål  
+
+Efter lektionen ska studenterna kunna:  
+✅ Förklara vad boxmodellen är (margin, border, padding, content)  
+✅ Förstå hur width/height påverkas av padding och border  
+✅ Använda border-radius för rundade hörn och enkel knapp-styling  
+✅ Använda CSS-egenskaper för färg och text  
+✅ Debugga CSS med hjälp av webbläsarens utvecklarverktyg  
+✅ Skapa och styla produktkort med unika utseenden  
+
+--------------------------------------------------
+📌 Kort lektionsagenda  
+
+- Code Review  
+- PowerPoint & Teori  
+- Reflektion & Diskussionsfrågor  
+- Självständiga övningar  
+- Code-Along  
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+📝 Lektionsplanering (3 timmar)  
+
+**00:00–00:40 – Code Review (HTML + CSS)**  
+- Studenterna visar sina **produktpresentationssidor** från veckan eller "Hyllningssida" från Azomo.
+- Klassen och läraren ger feedback (2 stars and a wish)  
+- Fokus: HTML-struktur, användning av klasser/ID och grundläggande CSS  
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+**00:40–01:20 – PowerPoint & Teori (Slides 52–64)**  
+
+🟨 **Slide 52 – Box-modellen – Vad styr boxens storlek?**  
+🗣️ "Allt i CSS är boxar. En box består av innehåll (content), padding, border och margin. Tillsammans avgör de hur stor boxen blir och hur mycket plats den tar på sidan."  
+
+--------------------------------------------------  
+
+🟨 **Slide 53 – Vad styr boxens storlek?**  
+🗣️ "Här ser vi de fyra delarna: margin är avståndet utåt, border är ramen, padding är avståndet inåt, och content är själva innehållet. Ändrar vi en av dessa påverkas hela boxens storlek."  
+
+--------------------------------------------------  
+
+🟨 **Slide 54 – CSS färg**  
+🗣️ "I CSS finns olika sätt att ange färg: med namn som 'red', med hex som '#ff0000', eller med rgb och rgba om vi vill styra transparens. Färg kan användas både på text och bakgrunder."  
+
+--------------------------------------------------  
+
+🟨 **Slide 55 – CSS text**  
+🗣️ "Text kan vi styla med egenskaper som `font-family`, `font-size`, `font-weight`, `line-height` och `text-align`. På så sätt kan vi göra texten mer läsbar och anpassad till designen."  
+
+--------------------------------------------------  
+
+🟨 **Slide 56 – CSS kantlinjer**  
+🗣️ "Med `border` kan vi sätta en kantlinje runt element. Vi bestämmer tjocklek, stil och färg, till exempel `border: 2px solid black;`."  
+
+--------------------------------------------------  
+
+🟨 **Slide 57 – CSS rundade hörn**  
+🗣️ "Med `border-radius` gör vi hörnen rundade. Sätter vi `border-radius: 50%` på en kvadrat blir det en cirkel – det är så vi kan skapa runda knappar eller profilbilder."  
+
+--------------------------------------------------  
+
+🟨 **Slide 58 – Bildslide (vykort / exempelbild)**  
+🗣️ "Här ser vi ett exempel på hur rundade hörn kan användas i design, till exempel på kort eller bilder för att skapa ett mjukare och mer modernt uttryck."  
+
+--------------------------------------------------  
+
+🟨 **Slide 59 – Debugga CSS**  
+🗣️ "När något inte fungerar öppnar vi utvecklarverktygen i webbläsaren. I fliken 'Elements' kan vi klicka på ett element och se alla stilar. Vi kan testa nya värden direkt och se vad som tar effekt."  
+
+--------------------------------------------------  
+
+🟨 **Slide 60 – Övningar: koppla på en stilmall, ändra färger, bakgrundsfärger**  
+🗣️ "Nu är det er tur. Vi börjar enkelt: koppla på en extern stilmall, ändra textfärger och bakgrundsfärger. Testa olika format – namn, hex, rgb – så ni blir bekväma med syntaxen."  
+
+--------------------------------------------------  
+
+🟨 **Slide 61 – Kodexempel: koppla CSS till HTML (page.html + stylesheet.css)**  
+🗣️ "Så här ser det ut i praktiken: vi har en HTML-fil, och i `<head>` länkar vi in vår CSS med `<link rel='stylesheet' href='stylesheet.css'>`. Det här är standardstrukturen."  
+
+--------------------------------------------------  
+
+🟨 **Slide 62 – Kodexempel: h1 styling**  
+🗣️ "Ett konkret exempel: vi väljer `h1` och ger den `font-family`, `font-size` och `color`. På det sättet kan vi ge rubriker en tydlig design."  
+
+--------------------------------------------------  
+
+🟨 **Slide 63 – Övning: Bygg trafikljuset med CSS (margin, border, background-color, height/width)**  
+🗣️ "Dags för en rolig övning – vi bygger ett trafikljus! Här får ni träna på boxmodellen: göra runda cirklar med border-radius, färga dem med background-color och styra storlek med height/width."  
+
+--------------------------------------------------  
+
+🟨 **Slide 64 – Övning 2 & 3 (vidare övningar / klona en valfri hemsida)**  
+🗣️ "För nästa steg: välj en enkel hemsida och försök klona den med HTML och CSS. Det här tränar er på att kombinera allt ni lärt er – struktur, färg, text, boxmodellen – i ett mer verkligt scenario."  
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+**01:20–01:50 – Reflektion & Diskussion**  
+
+📢 Diskussionsfrågor:  
+
+🔹 **Lätta**  
+- Vad betyder ordet "boxmodell" för dig efter dagens slides?  
+- Vilken CSS-egenskap har du använt mest hittills?  
+- Varför tror du att branschen pratar om tillgänglighet även när det gäller färger och text?  
+
+🔹 **Medel**  
+- När skulle du välja att använda px istället för rem eller procent?  
+- Hur kan DevTools hjälpa dig när något inte funkar i CSS?  
+- Om två olika regler försöker styla samma element – hur tror du webbläsaren avgör vilken som gäller?  
+
+🔹 **Avancerade**  
+- Hur kan dålig användning av boxmodellen förstöra en layout?  
+- Varför tror du att stora företag har kodkonventioner för klasser och CSS-namn?  
+- Hur skulle du förklara cascade för en person som aldrig hört talas om CSS?  
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+**01:50–02:30 – Dags för självständiga övningar**  
+
+(Se `exercise.txt` för detaljerade instruktioner)  
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+**02:30–03:00 – Code-Along – Produktkort**  
+
+📝 index.html genomför den koden 
+
+📝 style.css genomför den koden 
