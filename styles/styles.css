@@ -1,0 +1,43 @@
+/* 🗣️ Talarmanus:
+   Vi börjar med att skapa en box för produktkortet.
+   Vi använder border, padding och border-radius för att forma kortet. */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Rundade hörn */
+  padding: 16px; /* Luft innanför boxen */
+  width: 200px; /* Fixerad bredd */
+  text-align: center; /* Centrera texten */
+  background-color: white; /* Vit bakgrund */
+}
+
+/* 🗣️ Talarmanus:
+   Här ser vi hur bilden anpassas så den aldrig blir större än boxen. */
+.product-card img {
+  max-width: 100%;
+  border-radius: 4px; /* Lite rundade hörn på bilden */
+}
+
+/* 🗣️ Talarmanus:
+   Priset ska sticka ut lite med större font och fetstil. */
+.product-card .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 🗣️ Talarmanus:
+   Knappen – vi ger den padding, rundade hörn och en bakgrundsfärg.
+   Sen gör vi en hover-effekt så den känns klickbar. */
+.product-card button {
+  margin-top: 8px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
